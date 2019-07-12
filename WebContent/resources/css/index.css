@@ -1,0 +1,36 @@
+.login_form {
+	width: 50%;
+	height: 100%;
+	margin: auto;
+}
+
+.description_box {
+	background-color: #007bff;
+}
+
+.description_text {
+	color: white;
+}
+
+.description_ul {
+	margin: auto;
+}
+
+.register_box {
+	display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+	.login_form {
+		width: 90%;
+		height: 100%;
+		margin: auto;
+		padding-bottom: 2%;
+	}
+	
+	.description_box {
+		background-color: #007bff;
+		text-align: center;
+	}
+}
+
