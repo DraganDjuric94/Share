@@ -1,0 +1,27 @@
+@media only screen and (min-width: 992px) {
+    .activeFriends {
+        display: block !important;
+    }
+    
+    .friendsButton {
+    	display: none;
+    }
+}
+
+.profile_picture {
+	width: 90%;
+	padding-top: 90%;
+	border: 1px solid #007bff;
+	border-radius: 50%;
+	margin: auto;
+	background-image: url('../images/default-avatar.png');
+	background-size: cover;
+}
+
+.profile_image {
+	height: 100%;
+}
+
+.center_content {
+	margin: 0 !important;
+}
